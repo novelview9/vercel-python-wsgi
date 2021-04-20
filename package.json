@@ -1,6 +1,6 @@
 {
   "name": "@ardnt/vercel-python-wsgi",
-  "version": "1.0.11",
+  "version": "1.1.0-dev.1",
   "description": "Python builder for WSGI applications on Zeit Now",
   "main": "index.js",
   "repository": "https://github.com/ardnt/vercel-python-wsgi.git",
