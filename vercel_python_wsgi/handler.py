@@ -122,7 +122,7 @@ def handler(app, lambda_event, context):
     return returndict
 
 
-def now_handler(event, context):
+def vercel_handler(event, context):
     wsgi_app_data = os.environ.get('WSGI_APPLICATION').split('.')
     wsgi_module_name = '.'.join(wsgi_app_data[:-1])
     wsgi_app_name = wsgi_app_data[-1]
