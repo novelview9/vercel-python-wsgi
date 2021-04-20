@@ -4,8 +4,8 @@ const log = require('./log');
 
 
 const runtimeBinaryMap = {
-  'python2.7': 'python27',
   'python3.6': 'python3.6',
+  'python3.8': 'python3.8',
 };
 
 

@@ -154,7 +154,7 @@ then you can configure it as the entrypoint and adjust routes accordingly:
 
 ### Lambda environment limitations
 
-At the time of writing, Zeit Now runs on AWS Lambda. This has a number of
+At the time of writing, Vercel runs on AWS Lambda. This has a number of
 implications on what libaries will be available to you, notably:
 
 - PostgreSQL, so psycopg2 won't work out of the box
