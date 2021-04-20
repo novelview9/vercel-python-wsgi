@@ -8,16 +8,16 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "command-exists": "^1.2.8",
+    "command-exists": "^1.2.9",
     "execa": "^1.0.0",
     "fs.promised": "^3.0.0",
-    "node-fetch": "^2.2.0"
+    "node-fetch": "^2.6.1"
   },
   "devDependencies": {
-    "eslint": "^5.15.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-config-prettier": "^4.1.0",
-    "eslint-plugin-import": "^2.16.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-import": "^2.22.0",
     "pre-commit": "^1.2.2"
   },
   "pre-commit": [

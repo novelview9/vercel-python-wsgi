@@ -30,8 +30,8 @@ function validateRuntime(runtime) {
     Object.keys(runtimeBinaryMap).forEach((key) => {
       log.error(` - ${key}`);
     });
-    log.error('See Zeit runtime documentation for more information:');
-    log.error('https://zeit.co/docs/v2/deployments/builders/developer-guide#lambdaruntime');
+    log.error('See Vercel runtime documentation for more information:');
+    log.error('https://github.com/vercel/vercel/blob/main/DEVELOPING_A_RUNTIME.md#lambdaruntime');
     throw new Error(`Invalid runtime configured (${runtime}).`);
   }
   return true;

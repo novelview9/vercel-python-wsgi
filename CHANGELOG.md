@@ -1,5 +1,13 @@
 # Changelog
 
+## Unreleased
+
+### Changed
+- Upgraded packages
+- Moved all `@now/` prefixed build utilities to `@vercel/` prefix
+- Renamed package to `vercel-python-wsgi`
+
+
 ## [1.0.11] - 2019-11-03 - Upgrade eslint-utils & werkzeug
 
 ### Changed

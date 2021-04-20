@@ -1,9 +1,9 @@
 const path = require('path');
 const { readFile } = require('fs.promised');
-const getWritableDirectory = require('@now/build-utils/fs/get-writable-directory.js'); // eslint-disable-line import/no-extraneous-dependencies
-const download = require('@now/build-utils/fs/download.js'); // eslint-disable-line import/no-extraneous-dependencies
-const glob = require('@now/build-utils/fs/glob.js'); // eslint-disable-line import/no-extraneous-dependencies
-const { createLambda } = require('@now/build-utils/lambda.js'); // eslint-disable-line import/no-extraneous-dependencies
+const getWritableDirectory = require('@vercel/build-utils/fs/get-writable-directory.js'); // eslint-disable-line import/no-extraneous-dependencies
+const download = require('@vercel/build-utils/fs/download.js'); // eslint-disable-line import/no-extraneous-dependencies
+const glob = require('@vercel/build-utils/fs/glob.js'); // eslint-disable-line import/no-extraneous-dependencies
+const { createLambda } = require('@vercel/build-utils/lambda.js'); // eslint-disable-line import/no-extraneous-dependencies
 
 const { log, pip, python } = require('./build-utils');
 
