@@ -3,7 +3,7 @@ import json
 import pytest
 from werkzeug.wrappers import Request, Response
 
-from now_python_wsgi import handler
+from vercel_python_wsgi import handler
 
 
 # Test applications
@@ -80,12 +80,12 @@ def get_event():
 
 # Tests
 
-def test_now_handler_get_request(get_event):
+def test_vercel_handler_get_request(get_event):
     response = handler(application, prep_event(get_event), None)
     assert response['statusCode'] == 200
 
 
-def test_now_handler_querystring(get_event):
+def test_vercel_handler_querystring(get_event):
     event = update_body(get_event, path='/?param%3Dvalue%26param2%3Dvalue2')
     response = handler(application, prep_event(event), None)
     assert response['statusCode'] == 200
@@ -94,7 +94,7 @@ def test_now_handler_querystring(get_event):
     assert request_data['args'] == {'param': 'value', 'param2': 'value2'}
 
 
-def test_now_handler_multivalue_cookies(get_event):
+def test_vercel_handler_multivalue_cookies(get_event):
     response = handler(multivalue_cookie_application, prep_event(get_event),
                        None)
     assert response['statusCode'] == 200

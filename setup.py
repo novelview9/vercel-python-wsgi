@@ -12,10 +12,10 @@ with open('package.json') as f:
 """A barebones setup for tests
 """
 setup(
-    name='now-python-wsgi',
+    name='vercel-python-wsgi',
     version=version,
     packages=[
-        'now_python_wsgi'
+        'vercel_python_wsgi'
     ],
     install_requires=[
         'Werkzeug==0.16.0',
