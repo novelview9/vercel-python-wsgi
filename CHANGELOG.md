@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased - 1.1.0-dev.1
+## Unreleased - 1.1.0-dev.2
 
 ### Added
 - Supported runtime Python 3.8

@@ -2,8 +2,8 @@
 *A Vercel builder for Python WSGI applications*
 
 [![NPM version](https://img.shields.io/npm/v/@ardnt/vercel-python-wsgi.svg)](https://www.npmjs.com/package/@ardnt/vercel-python-wsgi)
-[![Build Status](https://travis-ci.org/ardnt/vercel-python-wsgi.svg?branch=master)](https://travis-ci.org/ardnt/vercel-python-wsgi)
-[![License](https://img.shields.io/npm/l/@ardnt/vercel-python-wsgi.svg)](https://github.com/ardnt/vercel-python-wsgi/blob/master/LICENSE)
+[![Build Status](https://www.travis-ci.com/ardnt/vercel-python-wsgi.svg?branch=main)](https://www.travis-ci.com/ardnt/vercel-python-wsgi)
+[![License](https://img.shields.io/npm/l/@ardnt/vercel-python-wsgi)](https://github.com/ardnt/vercel-python-wsgi/blob/master/LICENSE)
 
 ## Quickstart
 
