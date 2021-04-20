@@ -2,10 +2,17 @@
 
 ## Unreleased - 1.1.0-dev.1
 
+### Added
+- Supported runtime Python 3.8
+
 ### Changed
-- Upgraded packages
+- Upgraded builder packages
+- Upgraded handler packages
 - Moved all `@now/` prefixed build utilities to `@vercel/` prefix
 - Renamed package to `vercel-python-wsgi`
+
+### Removed
+- Runtime Python 2.7 (no longer supported by Vercel)
 
 
 ## [1.0.11] - 2019-11-03 - Upgrade eslint-utils & werkzeug

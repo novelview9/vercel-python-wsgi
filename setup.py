@@ -18,6 +18,6 @@ setup(
         'vercel_python_wsgi'
     ],
     install_requires=[
-        'Werkzeug==0.16.0',
+        'Werkzeug==1.0.1',
     ]
 )
