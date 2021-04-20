@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased - 1.1.0-dev.2
+## 1.1.0 - 2021-04-20 - Zeit Now is now called Vercel
 
 ### Added
 - Supported runtime Python 3.8
@@ -123,7 +123,7 @@ We're just getting started. This establishes a tidy repository ready for the
 world.
 
 
-[1.0.11]: https://github.com/ardnt/now-python-wsgi/compage/v1.0.10...v1.0.11
+[1.0.11]: https://github.com/ardnt/now-python-wsgi/compare/v1.0.10...v1.0.11
 [1.0.10]: https://github.com/ardnt/now-python-wsgi/compare/v1.0.9...v1.0.10
 [1.0.9]: https://github.com/ardnt/now-python-wsgi/compare/v1.0.8...v1.0.9
 [1.0.8]: https://github.com/ardnt/now-python-wsgi/compare/v1.0.7...v1.0.8
